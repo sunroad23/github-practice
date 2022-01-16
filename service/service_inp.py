@@ -30,6 +30,9 @@ class Service:
         else:
             ppg = 'n/a'
 
+        '''
+        mysql 관련 코드 임시 제거
+        '''
         # spo2_db = json.dumps({'spo2': int(spo2), 'unit': 'percent'})
         # hr_db = json.dumps({'hr': int(hr), 'unit': 'bpm'})
         # ppg_db = json.dumps({'ppg': ppg})
