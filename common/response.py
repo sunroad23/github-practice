@@ -64,7 +64,10 @@ def response_entity_type(response_code, entity_body):
         # # np.savetxt('K:/s01.csv', dnn_outp, fmt='%s', delimiter=",")
         # # np.savetxt('K:/s02.csv', re_m_outp, fmt='%s', delimiter=",")
         # # np.savetxt('K:/s03.csv', z_val, fmt='%s', delimiter=",")
-
+        
+        '''
+        임시값 출력
+        '''
         response_body = {
             'spo2': 1,
             'spo2_hr': 2,
